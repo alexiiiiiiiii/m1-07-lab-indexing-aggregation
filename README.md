@@ -12,26 +12,26 @@ By the end of the lab, you should be able to merge DataFrames on keys, reshape d
 
 ## Setup and Context
 
-You will use a provided CSV dataset for this lab. Download it here: [m1-07-indexing-aggregation-lab.csv](https://drive.google.com/file/d/1VD7Ar6nRVw9bG4_GvOtz77__XJe63dHE/view?usp=drive_link). Each row represents a student's score in a module assignment. The fields are `student_id`, `cohort`, `module`, `assignment`, and `score`. The dataset is intentionally long-form so you can practice reshaping and aggregation. Work in a notebook named `m1-07-indexing-aggregation-lab.ipynb`.
+You will use the CSV dataset included in this repository: `data_safe_copy.csv`. Each row represents a student's score in a module assignment. The fields are `student_id`, `cohort`, `module`, `assignment`, and `score`. The dataset is intentionally long-form so you can practice reshaping and aggregation. Work in a notebook named `m1-07-indexing-aggregation-lab.ipynb`.
 
 ## Requirements
 
 - Fork this repository to your own GitHub account.
 - Clone your fork to your machine.
-- Download the CSV file linked above and place it where your notebook can read it.
+- Use the included CSV file `data_safe_copy.csv` from the lab repository.
 - Make sure you can open and run Jupyter notebooks (for example via Jupyter Lab or VS Code).
 
 ## Getting Started
 
 - Create a new notebook and name it `m1-07-indexing-aggregation-lab.ipynb`.
-- Confirm you can successfully load `m1-07-indexing-aggregation-lab.csv` before moving on to merges/pivots.
+- Confirm you can successfully load `data_safe_copy.csv` before moving on to merges/pivots.
 - Before you submit, restart your kernel and run the notebook **top to bottom**.
 
 ## Tasks
 
 ### Task 1: Load and inspect the dataset
 
-Load `m1-07-indexing-aggregation-lab.csv` into a DataFrame named `scores`. Confirm the row count is at least 300 and print the first five rows. Run `info()` and verify that `score` is numeric.
+Load `data_safe_copy.csv` into a DataFrame named `scores`. Confirm the row count is at least 300 and print the first five rows. Run `info()` and verify that `score` is numeric.
 
 ### Task 2: Build a student roster table and merge
 
